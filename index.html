@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-sans bg-gray-100">
+    <div
+      class="min-h-screen flex flex-col items-center justify-center bg-background text-foreground p-6"
+    >
+      <div class="flex justify-between items-center w-full md:w-1/2 mb-8">
+        <div class="text-2xl font-bold">Jason Sullano</div>
+        <div class="flex space-x-4">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            class="hover:opacity-75"
+          >
+            <img
+              aria-hidden="true"
+              alt="facebook"
+              src="https://openui.fly.dev/openui/24x24.svg?text=📘"
+            />
+          </a>
+          <a href="mailto:example@example.com" class="hover:opacity-75">
+            <img
+              aria-hidden="true"
+              alt="email"
+              src="https://openui.fly.dev/openui/24x24.svg?text=✉️"
+            />
+          </a>
+          <a href="https://github.com" target="_blank" class="hover:opacity-75">
+            <img
+              aria-hidden="true"
+              alt="github"
+              src="https://openui.fly.dev/openui/24x24.svg?text=🐱"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col md:flex-row items-center justify-between w-full md:w-1/2 bg-card p-6 rounded-lg shadow-lg mb-8 transition-transform transform hover:scale-105"
+      >
+        <div class="text-center md:text-left">
+          <h1 class="text-4xl font-extrabold mb-2">Your Name</h1>
+          <p class="text-muted-foreground text-lg">
+            A brief description about yourself, your passion, and your goals.
+          </p>
+        </div>
+        <img
+          src="https://placehold.co/150x150"
+          alt="Profile Picture"
+          class="rounded-full mt-4 md:mt-0 md:ml-6 border-4 border-primary"
+        />
+      </div>
+
+      <div
+        class="w-full md:w-1/2 bg-card p-6 rounded-lg shadow-lg mb-8 transition-transform transform hover:scale-105"
+      >
+        <h2 class="text-2xl font-semibold mb-4">Tech Stacks</h2>
+        <div class="flex flex-wrap gap-3">
+          <span
+            class="bg-secondary text-secondary-foreground px-4 py-2 rounded-full shadow-md"
+            >HTML</span
+          >
+          <span
+            class="bg-secondary text-secondary-foreground px-4 py-2 rounded-full shadow-md"
+            >CSS</span
+          >
+          <span
+            class="bg-secondary text-secondary-foreground px-4 py-2 rounded-full shadow-md"
+            >JavaScript</span
+          >
+          <span
+            class="bg-secondary text-secondary-foreground px-4 py-2 rounded-full shadow-md"
+            >React</span
+          >
+        </div>
+      </div>
+
+      <div class="w-full md:w-1/2">
+        <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+
+        <div
+          class="bg-card p-6 rounded-lg shadow-lg mb-8 transition-transform transform hover:scale-105"
+        >
+          <div class="flex flex-col md:flex-row items-center">
+            <img
+              src="https://placehold.co/150x150"
+              alt="Project Image 1"
+              class="rounded-lg mb-4 md:mb-0 md:mr-6 border-4 border-accent"
+            />
+            <div>
+              <h3 class="text-lg font-bold mb-2">Project One</h3>
+              <p class="text-muted-foreground mb-2">
+                A brief description of the first project and its purpose.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="bg-accent text-accent-foreground px-3 py-1 rounded-full"
+                  >React</span
+                >
+                <span
+                  class="bg-accent text-accent-foreground px-3 py-1 rounded-full"
+                  >Node.js</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-card p-6 rounded-lg shadow-lg mb-8 transition-transform transform hover:scale-105"
+        >
+          <div class="flex flex-col md:flex-row items-center">
+            <img
+              src="https://placehold.co/150x150"
+              alt="Project Image 2"
+              class="rounded-lg mb-4 md:mb-0 md:mr-6 border-4 border-accent"
+            />
+            <div>
+              <h3 class="text-lg font-bold mb-2">Project Two</h3>
+              <p class="text-muted-foreground mb-2">
+                A brief description of the second project and its purpose.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="bg-accent text-accent-foreground px-3 py-1 rounded-full"
+                  >Vue.js</span
+                >
+                <span
+                  class="bg-accent text-accent-foreground px-3 py-1 rounded-full"
+                  >Firebase</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-card p-6 rounded-lg shadow-lg mb-8 transition-transform transform hover:scale-105"
+        >
+          <div class="flex flex-col md:flex-row items-center">
+            <img
+              src="https://placehold.co/150x150"
+              alt="Project Image 3"
+              class="rounded-lg mb-4 md:mb-0 md:mr-6 border-4 border-accent"
+            />
+            <div>
+              <h3 class="text-lg font-bold mb-2">Project Three</h3>
+              <p class="text-muted-foreground mb-2">
+                A brief description of the third project and its purpose.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="bg-accent text-accent-foreground px-3 py-1 rounded-full"
+                  >Angular</span
+                >
+                <span
+                  class="bg-accent text-accent-foreground px-3 py-1 rounded-full"
+                  >Express.js</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
