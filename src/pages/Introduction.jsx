@@ -11,7 +11,7 @@ const Introduction = () => {
         {/* Logo - Top Left */}
         <div className="absolute top-6 left-6">
           <img
-            src="/JSN-logo.png"
+            src={`${import.meta.env.BASE_URL}JSN-logo.png`}
             alt="Logo"
             className="h-10 w-auto object-contain"
           />
@@ -110,7 +110,7 @@ const Introduction = () => {
             <div className="relative mx-auto">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-800">
                 <img
-                  src="/profile-photo.jpg"
+                  src={`${import.meta.env.BASE_URL}profile-photo.jpg`}
                   alt="Jason's profile photo"
                   className="w-full h-full object-cover"
                 />

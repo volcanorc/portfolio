@@ -1,6 +1,8 @@
 // src/components/ProjectsSection.jsx
 import ProjectCard from "./ProjectCard";
 
+const base = import.meta.env.BASE_URL;
+
 const projects = [
   {
     id: 1,
@@ -9,7 +11,7 @@ const projects = [
       "A web app that lets users generate and copy random programming jokes with a single click.",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveUrl: "#",
-    imageUrl: "/compact.png",
+    imageUrl: `${base}projects-img/compact.png`,
   },
   {
     id: 2,
@@ -18,7 +20,7 @@ const projects = [
       "A full-stack e-commerce solution with user authentication, payment processing, and inventory management.",
     technologies: ["React", "Node.js", "MongoDB"],
     liveUrl: "#",
-    imageUrl: "/compact.png",
+    imageUrl: `${base}projects-img/compact.png`,
   },
   {
     id: 3,
@@ -27,7 +29,7 @@ const projects = [
       "A collaborative task management application with real-time updates and team collaboration features.",
     technologies: ["Vue.js", "Firebase", "Tailwind"],
     liveUrl: "#",
-    imageUrl: "/compact.png",
+    imageUrl: `${base}projects-img/compact.png`,
   },
   {
     id: 4,
@@ -36,7 +38,7 @@ const projects = [
       "A responsive weather application that provides detailed forecasts and weather analytics for multiple locations.",
     technologies: ["React", "API", "Chart.js"],
     liveUrl: "#",
-    imageUrl: "/compact.png",
+    imageUrl: `${base}projects-img/compact.png`,
   },
 ];
 
