@@ -10,7 +10,7 @@ const techIcons = {
   Firebase: "🔥",
   Tailwind: "💨",
   API: "🔌",
-  "Chart.js": "📊",
+  Unknown: "❓",
 };
 
 export default function TechBadge({ technology }) {

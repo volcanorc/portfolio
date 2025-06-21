@@ -6,37 +6,33 @@ const base = import.meta.env.BASE_URL;
 const projects = [
   {
     id: 1,
-    title: "Return to Normalcy",
-    description:
-      "A web app that lets users generate and copy random programming jokes with a single click.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    title: "Project Not Yet Compiled",
+    description: "Description unavailable",
+    technologies: ["Unknown", "Unknown", "Unknown"],
     liveUrl: "#",
     imageUrl: `${base}projects-img/compact.png`,
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
-    description:
-      "A full-stack e-commerce solution with user authentication, payment processing, and inventory management.",
-    technologies: ["React", "Node.js", "MongoDB"],
+    title: "Project Not Yet Compiled",
+    description: "Description unavailable",
+    technologies: ["Unknown", "Unknown", "Unknown"],
     liveUrl: "#",
     imageUrl: `${base}projects-img/compact.png`,
   },
   {
     id: 3,
-    title: "Task Management App",
-    description:
-      "A collaborative task management application with real-time updates and team collaboration features.",
-    technologies: ["Vue.js", "Firebase", "Tailwind"],
+    title: "Project Not Yet Compiled",
+    description: "Description unavailable",
+    technologies: ["Unknown", "Unknown", "Unknown"],
     liveUrl: "#",
     imageUrl: `${base}projects-img/compact.png`,
   },
   {
     id: 4,
-    title: "Weather Dashboard",
-    description:
-      "A responsive weather application that provides detailed forecasts and weather analytics for multiple locations.",
-    technologies: ["React", "API", "Chart.js"],
+    title: "Project Not Yet Compiled",
+    description: "Description unavailable",
+    technologies: ["Unknown", "Unknown", "Unknown"],
     liveUrl: "#",
     imageUrl: `${base}projects-img/compact.png`,
   },
