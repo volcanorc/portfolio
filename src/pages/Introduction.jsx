@@ -70,7 +70,7 @@ const Introduction = () => {
               Hi, I'm Jason
             </h1>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-12 text-balance">
-              I Code What Matters
+              I Build & Design What Matters
             </h2>
 
             {/* Action Buttons */}
@@ -97,10 +97,10 @@ const Introduction = () => {
             {/* Description */}
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
               <p>
-                I create cohesive design systems that balance aesthetics and
-                functionality. building scalable, adaptable interfaces where
-                every component is crafted for clarity, consistency, and a
-                seamless user experience
+                I help bring ideas to life through thoughtful solutions, whether
+                it’s building digital experiences, designing visuals, or
+                organizing creative projects. My work focuses on clarity,
+                consistency, and delivering results that make an impact.
               </p>
             </div>
           </div>
