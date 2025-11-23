@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/portfolio/", // GitHub Pages subfolder
+  base: "/portfolio1/", // GitHub Pages subfolder
 });
