@@ -30,7 +30,6 @@ const techStack = {
     { name: "Git", img: "stack-logo/git.png" },
     { name: "Docker", img: "stack-logo/docker.png" },
     { name: "Slack", img: "stack-logo/slack.png" },
-    { name: "Canva", img: "stack-logo/canva.png" },
     { name: "WordPress", img: "stack-logo/wordpress.png" },
   ],
 };
@@ -43,7 +42,7 @@ function TechCategory({ title, items, base }) {
     <div className="mb-12">
       <h3 className="text-2xl font-semibold mb-4 text-red-400">{title}</h3>
 
-      <div className="grid grid-cols-1 md:grid-cols-4">
+      <div className="grid grid-cols-1">
         {items.map((tech) => (
           <div
             key={tech.name}
@@ -108,7 +107,7 @@ export default function TechSection() {
           I Use
         </h2>
 
-        <div className="bg-gray-900/50 rounded-2xl p-8 border border-gray-800">
+        <div className="md:grid md:grid-cols-2 lg:grid-cols-4  bg-gray-900/50 rounded-2xl p-8 border border-gray-800 mb-12">
           <TechCategory
             title="Frontend & UI"
             items={techStack.frontend}
@@ -119,13 +118,14 @@ export default function TechSection() {
             items={techStack.backend}
             base={base}
           />
+
           <TechCategory
             title="Databases"
             items={techStack.database}
             base={base}
           />
           <TechCategory
-            title="Tools & Other Technologies"
+            title="Tools & Other"
             items={techStack.tools}
             base={base}
           />
