@@ -94,11 +94,9 @@ export default function GraphicDesignSection() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-12">
-            More Internship & Freelance Projects
+            Example Projects During my Internship
           </h2>
-          <p className="mb-12">
-            Here’s a static page showing more of my graphic design work.
-          </p>
+          <p className="mb-12">Showcasing more of my graphic design work.</p>
 
           {/* Grid of 20 images */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
@@ -160,7 +158,8 @@ export default function GraphicDesignSection() {
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-12">
-          Examples of graphic design work from my internship experience
+          Examples of <span className="text-red-500">graphic design</span> work
+          from my internship experience
         </h2>
 
         <div className="relative w-full flex justify-center">
