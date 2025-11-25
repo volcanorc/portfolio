@@ -76,16 +76,23 @@ const Introduction = () => {
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mb-12">
               {/* Hire Now Button */}
-              <button className="border border-white text-white hover:bg-white hover:text-gray-500 px-8 py-3 text-lg font-medium rounded">
-                Hire Now
-              </button>
+              <a
+                href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sullano.jasonn@gmail.com
+"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="border border-white text-white hover:bg-white hover:text-gray-500 px-8 py-3 text-lg font-medium rounded">
+                  Hire Now
+                </button>
+              </a>
 
               {/* Open Resume Button using button */}
               <button
                 className="border border-white text-white hover:bg-white hover:text-gray-500 px-8 py-3 text-lg font-medium rounded"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1cSmHUq0Bo8o_VzeZ9I9zBlIyDfiSW7dq/view?usp=sharing",
+                    "https://drive.google.com/file/d/1ByFqkorTPkrIV879AIr4BY8HFbv0LC90/view?usp=sharing",
                     "_blank"
                   )
                 }
